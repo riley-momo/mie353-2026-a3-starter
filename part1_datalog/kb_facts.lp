@@ -4,7 +4,7 @@
 % This file is given to you. Do not change it: write your rules in
 % kb_rules.lp and your queries in queries/query1.lp ... query6.lp.
 %
-% Predicates
+% Predicate Schema
 %   student(StudentId, FirstName, LastName).
 %   instructor(InstructorId, FirstName, LastName, Department).
 %   course(CourseCode, Title, Department, Year).
@@ -12,11 +12,8 @@
 %   teaches(InstructorId, CourseCode).
 %   completed(StudentId, CourseCode, Grade).   a finished course, with its grade
 %   enrolled(StudentId, CourseCode).           a course the student is taking now
-%
-% A grade of 50 or above is a pass; a grade below 50 is a fail.
 % =====================================================================
 
-% ---- Courses: course(Code, Title, Department, Year) ----
 course(aps101, "Engineering Strategy and Practice", aps, 1).
 course(mat186, "Calculus I", mat, 1).
 course(mat187, "Calculus II", mat, 1).
@@ -32,7 +29,6 @@ course(mie350, "Information Systems Design", mie, 3).
 course(mie424, "Optimization for Machine Learning", mie, 4).
 course(mie451, "Decision Support Systems", mie, 4).
 
-% ---- Prerequisites: prerequisite(Course, Prereq) ----
 prerequisite(mat187, mat186).
 prerequisite(csc190, csc180).
 prerequisite(mie231, mat187).
@@ -47,7 +43,6 @@ prerequisite(mie424, mat188).
 prerequisite(mie451, mie350).
 prerequisite(mie451, mie231).
 
-% ---- Instructors: instructor(Id, FirstName, LastName, Department) ----
 instructor(i01, "Grace", "Hopper", csc).
 instructor(i02, "Emmy", "Noether", mat).
 instructor(i03, "Alan", "Turing", mie).
@@ -55,7 +50,6 @@ instructor(i04, "Katherine", "Johnson", mat).
 instructor(i05, "George", "Dantzig", mie).
 instructor(i06, "Lillian", "Gilbreth", aps).
 
-% ---- Teaching: teaches(InstructorId, CourseCode) ----
 teaches(i06, aps101).
 teaches(i02, mat186).
 teaches(i02, mat187).
@@ -71,7 +65,6 @@ teaches(i03, mie350).
 teaches(i05, mie424).
 teaches(i03, mie451).
 
-% ---- Students: student(Id, FirstName, LastName) ----
 student(s01, "Maya", "Chen").
 student(s02, "Omar", "Haddad").
 student(s03, "Priya", "Raman").
@@ -83,8 +76,6 @@ student(s08, "Ethan", "Novak").
 student(s09, "Zara", "Ali").
 student(s10, "Noah", "Tremblay").
 
-% ---- Completed courses: completed(StudentId, CourseCode, Grade) ----
-% Maya: strong student, well into the program
 completed(s01, aps101, 88).
 completed(s01, mat186, 91).
 completed(s01, mat187, 85).
@@ -96,8 +87,6 @@ completed(s01, mie262, 87).
 completed(s01, mie250, 92).
 completed(s01, mie245, 86).
 completed(s01, mie368, 90).
-
-% Omar: failed Calculus II, then passed it on a second attempt
 completed(s02, aps101, 72).
 completed(s02, mat186, 65).
 completed(s02, mat187, 41).
@@ -105,8 +94,6 @@ completed(s02, mat187, 58).
 completed(s02, mat188, 70).
 completed(s02, csc180, 77).
 completed(s02, mie262, 61).
-
-% Priya
 completed(s03, aps101, 80).
 completed(s03, mat186, 78).
 completed(s03, mat187, 74).
@@ -115,15 +102,11 @@ completed(s03, csc180, 85).
 completed(s03, csc190, 79).
 completed(s03, mie231, 71).
 completed(s03, mie250, 76).
-
-% Lucas: failed Linear Algebra
 completed(s04, aps101, 69).
 completed(s04, mat186, 55).
 completed(s04, mat187, 52).
 completed(s04, mat188, 38).
 completed(s04, csc180, 60).
-
-% Sofia
 completed(s05, aps101, 90).
 completed(s05, mat186, 84).
 completed(s05, mat187, 88).
@@ -132,15 +115,11 @@ completed(s05, csc180, 81).
 completed(s05, csc190, 85).
 completed(s05, mie231, 79).
 completed(s05, mie262, 83).
-
-% Daniel: failed Data Structures
 completed(s06, aps101, 75).
 completed(s06, mat186, 70).
 completed(s06, mat188, 66).
 completed(s06, csc180, 62).
 completed(s06, csc190, 44).
-
-% Hannah
 completed(s07, aps101, 85).
 completed(s07, mat186, 90).
 completed(s07, mat187, 87).
@@ -151,13 +130,9 @@ completed(s07, mie250, 88).
 completed(s07, mie245, 84).
 completed(s07, mie350, 81).
 completed(s07, mie231, 80).
-
-% Ethan: first year so far
 completed(s08, aps101, 64).
 completed(s08, mat186, 59).
 completed(s08, csc180, 71).
-
-% Zara
 completed(s09, aps101, 93).
 completed(s09, mat186, 95).
 completed(s09, mat187, 91).
@@ -165,9 +140,6 @@ completed(s09, mat188, 97).
 completed(s09, csc180, 88).
 completed(s09, mie262, 90).
 
-% Noah: has not completed any course yet
-
-% ---- Current enrolments: enrolled(StudentId, CourseCode) ----
 enrolled(s01, mie350).
 enrolled(s01, mie424).
 enrolled(s02, mie231).

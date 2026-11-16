@@ -1,0 +1,92 @@
+courseId,universityId,courseName,gradCourse
+civ230,UT01,Analytical Methods,0
+civ232,UT01,Probability,0
+ece122,UT01,Physics,0
+ece1514,UT01,Deep Learning,1
+ece255,UT01,Programming Algorithms,0
+ece300,UT01,Circuits,0
+ece322,UT01,Circuits II,0
+ece330,UT01,Statistics,0
+edm304,UT01,Prevent.Eng.&Soc.Dev,0
+mie100,UT01,Dynamics,0
+mie191,UT01,Introduction To Mechanical And Industrial Engineering,0
+mie210,UT01,Thermodynamics,0
+mie222,UT01,Mech.Of Solids I,0
+mie230,UT01,Engineering Analysis,0
+mie231,UT01,Prob.& Stat.For Eng.,0
+mie235,UT01,Algorithms Numerical Methods,0
+mie237,UT01,Statistics And Design Of Experiment,0
+mie240,UT01,Hum.Cent.Syst.Design,0
+mie241,UT01,Eng.Design &Graphics,0
+mie253,UT01,Data Modelling,0
+mie258,UT01,Engineering Economics And Accounting,0
+mie262,UT01,Operational Res.I,0
+mie265,UT01,Introduction To Systems Engineering,0
+mie270,UT01,Fluid Mechanics I,0
+mie301,UT01,Kine.&Dynam.Of Mach.,0
+mie302,UT01,Vibrations,0
+mie310,UT01,Thermodynamics,0
+mie311,UT01,Ther.Ener.Conversion,0
+mie312,UT01,Fluid Mechanics I,0
+mie313,UT01,Heat & Mass Transfer,0
+mie320,UT01,Mech. Of Solids Ii,0
+mie321,UT01,Manufacturing Engin.,0
+mie337,UT01,Stat.& Exper. Design,0
+mie342,UT01,Cir.With Appl.To Mech.Eng.Sys.,0
+mie343,UT01,Indust.Ergo.& Workpl,0
+mie344,UT01,Ergo.Des.Of Info.Sys,0
+mie346,UT01,Anal.&Digital Electr.For Mech.,0
+mie347,UT01,Electromechanical Energy Conv.,0
+mie350,UT01,Des.&Ana.Of Info.Sys,0
+mie353,UT01,Data Modelling,0
+mie354,UT01,Info.Sys.Infrastructure I,0
+mie355,UT01,Software Eng.& Project Manag.,0
+mie358,UT01,Eng.Econo.& Account.,0
+mie359,UT01,Organization Design,0
+mie360,UT01,Sys.Modelling & Sim.,0
+mie363,UT01,Resource &Production Modelling,0
+mie364,UT01,Met.Of Qual.Cont.Imp,0
+mie365,UT01,Operat. Research Ii,0
+mie372,UT01,Control Systems,0
+mie373,UT01,Resource & Production Systems,0
+mie374,UT01,Eco.Ana.& Dec.Making,0
+mie404,UT01,Control Systems I,0
+mie414,UT01,App. Fluid Mechanics,0
+mie415,UT01,Design For The Environment,0
+mie418,UT01,Fluid Mechanics Ii,0
+mie422,UT01,Automa.Manufacturing,0
+mie439,UT01,Biomechanical Engin.,0
+mie440,UT01,Mechanical Design: Theory And Methodology,0
+mie441,UT01,Comput. Aided Design,0
+mie442,UT01,Machine Design,0
+mie444,UT01,Mechatronics Prin.,0
+mie448,UT01,Eng.Psychology &Human Perform.,0
+mie449,UT01,H/Com.Int.Des.Com.Sy,0
+mie451,UT01,Decision Support Sys,0
+mie456,UT01,Info.Sys.Infrastructure Ii,0
+mie457,UT01,Knowledge Modelling & Manage.,0
+mie460,UT01,Manufact.& Prod.Sys.,0
+mie467,UT01,Adv.Operational Res.,0
+mie468,UT01,Facility Planning,0
+mie469,UT01,Reliab.& Maintainability Eng.,0
+mie496,UT01,Thesis/Design Proj.,0
+mie512,UT01,Air Poll.Form.& Con.,2
+mie514,UT01,Atmospher.Pollution,1
+mie515,UT01,Alternative Energy Systems,2
+mie540,UT01,Product Design,2
+mie561,UT01,Healthcare Systems,2
+mie562,UT01,Scheduling,2
+mie566,UT01,Decision Analysis,2
+csc100,UT01,Intro to Computer Science,0
+csc100,UW01,Introductrion to Computer Science,0
+mat200,UW01,Advanced Mathematics,0
+phy100,UW01,Physics I,0
+csc100,UO01,Programming 101,0
+mat200,UO01,Advanced Mathematics,0
+phy100,UO01,Physics I,0
+csc100,UT02,Intro to Computer Science,0
+mat200,UT02,Advanced Mathematics,0
+phy100,UT02,Physics I,0
+csc100,UT01,Intro to Computer Science,0
+mat200,UT01,Advanced Mathematics,0
+phy100,UT01,Physics I,0

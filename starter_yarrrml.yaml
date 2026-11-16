@@ -1,0 +1,14 @@
+prefixes:
+  rr: http://www.w3.org/ns/r2rml#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  ex: http://example.com#
+  on: http://stl.mie.utoronto.ca/mie353#
+
+mappings:
+  students:
+    sources:
+      - [students.csv]
+    s: ex:$(studentId)
+    po:
+      - [a, on:student]

@@ -1,0 +1,6 @@
+clingo
+morph-kgc
+owlrl
+pandas
+rdflib
+ipykernel
